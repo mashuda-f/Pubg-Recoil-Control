@@ -8,15 +8,16 @@ Aplikasi ini beroperasi di user-mode (menggunakan SendInput dan mouse_event). Ga
 
 ⚙️ 2. Fitur Utama
 Fitur	Deskripsi
-Klik Tahan (Hold)	Recoil aktif terus-menerus selama tombol kiri mouse ditekan (bukan sekali klik).
-Human-like Movement	Gerakan turun dipecah menjadi 2-4 langkah kecil dengan delay acak.
-Jitter Delay (30%)	Waktu antar langkah tidak pernah sama persis (contoh: set 10ms → real 7–13ms).
-Jitter Offset (±2px)	Jarak turun selalu berubah sedikit (contoh: set 15px → real 13–17px).
-Koreksi Simulasi	Setiap 10 siklus, mouse sedikit bergerak ke atas (simulasi koreksi bidikan).
-F1 Toggle (Global)	Matikan/nyalakan semua fungsi macro secara instan (tanpa harus close aplikasi).
-Startup Delay Acak	Aplikasi menunda aktivasi hook selama 3–7 detik secara acak untuk menghindari pola "buka game langsung buka macro".
-Slider Real-time	Ubah Jarak Turun (Offset) dan Kecepatan (Delay) tanpa restart aplikasi.
-Tanpa Enkripsi	Kode bersih, stabil, dan tidak ada obfuskasi yang berlebihan (memudahkan debugging).
+  1. Klik Tahan (Hold)	Recoil aktif terus-menerus selama tombol kiri mouse ditekan (bukan sekali klik).
+  2. Human-like Movement	Gerakan turun dipecah menjadi 2-4 langkah kecil dengan delay acak.
+  3. Jitter Delay (30%)	Waktu antar langkah tidak pernah sama persis (contoh: set 10ms → real 7–13ms).
+  4. Jitter Offset (±2px)	Jarak turun selalu berubah sedikit (contoh: set 15px → real 13–17px).
+  5. Koreksi Simulasi	Setiap 10 siklus, mouse sedikit bergerak ke atas (simulasi koreksi bidikan).
+  6. F1 Toggle (Global)	Matikan/nyalakan semua fungsi macro secara instan (tanpa harus close aplikasi).
+  7. Startup Delay Acak	Aplikasi menunda aktivasi hook selama 3–7 detik secara acak untuk menghindari pola "buka game langsung buka macro".
+  8. Slider Real-time	Ubah Jarak Turun (Offset) dan Kecepatan (Delay) tanpa restart aplikasi.
+  9. Tanpa Enkripsi	Kode bersih, stabil, dan tidak ada obfuskasi yang berlebihan (memudahkan debugging).
+      
 💻 3. Persyaratan Sistem
 OS: Windows 10 / 11 (64-bit)
 
